@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "raa-filter",
+	"version": "${version}",
+	"name": "RadminAntiAttack Filter",
+	"description": "Фильтр пакетов чтоб боты не видели кто на сервере сидит.",
+	"authors": [
+		"Gudev"
+	],
+	"contact": {
+		"sources": "https://github.com/Gudev-java/RadminAntiAttack"
+	},
+	"license": "MIT",
+	"icon": "assets/raa-filter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.raa.filter.RAAFilterMod"
+		]
+	},
+	"mixins": [
+		"raa-filter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.21",
+		"java": ">=21"
+	}
+}

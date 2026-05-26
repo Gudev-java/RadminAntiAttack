@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.raa.filter.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ServerStatusPacketListenerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
